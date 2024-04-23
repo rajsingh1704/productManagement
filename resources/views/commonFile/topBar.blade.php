@@ -6,21 +6,16 @@
       </button>
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
+       
           <li class="nav-item">
             <a class="nav-link" href="{{ route('categoriesList') }}">Category</a>
           </li>  
           
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Product</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="{{ route('saveProductDetails') }}">New Product</a></li>
-              <li><a class="dropdown-item" href="#">Another link</a></li>
+              {{-- <li><a class="dropdown-item" href="#">Product List</a></li> --}}
             </ul>
           </li>
         </ul>

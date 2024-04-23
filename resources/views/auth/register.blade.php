@@ -37,14 +37,14 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="name" class="form-label">Enter Name</label>
-                            <input type="text" class="form-control" id="name" name="name" required placeholder="Enter Your Name" value="ADi" />
+                            <input type="text" class="form-control" id="name" name="name" required placeholder="Enter Your Name"  />
                         </div>
                     </div>
 
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="name" class="form-label">Mobile Number</label>
-                            <input type="text" class="form-control" id="phoneno" name="phoneno" required placeholder="Enter Mobile Number" value="8709769741" />
+                            <input type="text" class="form-control" id="phoneno" name="phoneno" required placeholder="Enter Mobile Number"  />
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="email" name="email" required placeholder="Enter email" value="rajdeveloper0101@gmail.com" />
+                            <input type="email" class="form-control" id="email" name="email" required placeholder="Enter email"  />
                         </div>
                     </div>
                     
@@ -63,7 +63,7 @@
                             <label for="name" class="form-label">Select Gender</label>
                             <select class="form-control" name="gender" id="gender" required >
                                 <option selected="selected" hidden="true" value="" >Select Gender</option>
-                                <option selected value="Male">Male</option>
+                                <option value="Male">Male</option>
                                 <option value="Female">Female</option>
                                 <option value="Other">Other</option>
                             </select>
@@ -75,7 +75,7 @@
                             <label for="name" class="form-label">Select Role</label>
                             <select class="form-control" name="role" id="role" required >
                                 <option selected="selected" hidden="true" value="" >Select Role</option>
-                                <option selected value="Admin">Admin</option>
+                                <option value="Admin">Admin</option>
                                 <option value="Developer">Developer</option>
                                 <option value="Manager">Manager</option>
                             </select>
@@ -87,12 +87,12 @@
                 <div class="row mt-3">
                     <div class="col-md-6">
                         <label for="password" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="password" name="password" required placeholder="Password" value="1234" />
+                        <input type="password" class="form-control" id="password" name="password" required placeholder="Password"  />
                     </div>
 
                     <div class="col-md-6">
                         <label for="password" class="form-label">Confirm Password</label>
-                        <input type="password" class="form-control" id="password_confirmation" name="password_confirmation" required placeholder="Confirm Password" value="1234" />
+                        <input type="password" class="form-control" id="password_confirmation" name="password_confirmation" required placeholder="Confirm Password"  />
                     </div>
 
                 </div>
